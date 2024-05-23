@@ -1,4 +1,3 @@
-
 import cloudinary from '../config/cloudinary.js';
 import { catchAsyncErrors } from '../middlewares/catchAsyncErrors.js';
 import ErrorHandler from '../middlewares/error.js';
