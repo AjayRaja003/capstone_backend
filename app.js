@@ -13,8 +13,7 @@ dotenv.config({ path: "./config/.env" });
 
 app.use(
   cors({
-   origin: "*",
-  // origin:"http://localhost:5173",
+   origin:"https://taskmanagemenmtappcapstone.netlify.app",
     methods: ["GET", "PUT", "DELETE", "POST"],
     credentials: true,
   })
