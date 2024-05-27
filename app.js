@@ -13,7 +13,7 @@ dotenv.config({ path: "./config/.env" });
 
 app.use(
   cors({
-   origin:"http://localhost:5173",
+   origin:"*",
     methods: ["GET", "PUT", "DELETE", "POST"],
     credentials: true,
   })
